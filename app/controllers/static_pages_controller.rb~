@@ -7,4 +7,17 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def contact
+  end
+
+help_path -> '/help'
+help_url  -> 'http://www.example.com/help'
+
+about_path -> '/about'
+about_url  -> 'http://www.example.com/about'
+
+help_path -> '/contact'
+help_url  -> 'http://www.example.com/contact'
+
 end
